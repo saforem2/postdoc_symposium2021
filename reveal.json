@@ -1,0 +1,10 @@
+{
+    "title": "l2hmc-qcd @ ECT 2021",
+    "controls": true,
+    "progress": true,
+    "history": true,
+    "slideNumber": true,
+    "transition": "slide",
+    "parallaxBackgroundSize": "2100px 900px",
+    "center": false 
+}
