@@ -7,13 +7,10 @@
     <title>l2hmc-qcd @ ANL PoS 2021</title>
     <link rel="shortcut icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./dist/theme/white.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/github.css" />
-    <link rel="stylesheet" href="./_assets/custom/custom_theme.css" id="theme"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./_assets/custom/custom_theme.css" />
+
   </head>
   <body>
     <div class="reveal">
@@ -347,7 +344,7 @@ DE-AC02-06CH11357.
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"title":"l2hmc-qcd @ PoS 2021 -- ANL","controls":true,"progress":true,"history":true,"slideNumber":true,"transition":"slide","parallaxBackgroundSize":"2100px 900px","center":true}, queryOptions);
+      var options = extend(defaultOptions, {"title":"l2hmc-qcd @ PoS 2021 -- ANL","controls":false,"progress":true,"history":true,"slideNumber":true,"theme":"custom_theme","transition":"slide","parallaxBackgroundSize":"2100px 900px","center":true}, queryOptions);
     </script>
 
 
