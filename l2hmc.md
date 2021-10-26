@@ -13,8 +13,8 @@ output:
         enabled: true
         theme: whiteboard
         toggleNotesButton: false
-created: 2021-10-26T16:38:06-05:00
-updated: 2021-10-26T16:43:12-05:00
+created: 2021-10-26T16:46:32-05:00
+updated: 2021-10-26T16:46:32-05:00
 ---
 
 <!-- .slide: data-background="#1c1c1c" -->
@@ -58,9 +58,9 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 
 <div id="right">
 
-![](assets/nucleus.svg) <!-- .element width="50%" align="center" -->
+![](assets/nucleus.svg) <!-- .element width="50%" -->
 
-![](assets/feynman.svg) <!-- .element height="66%" align="center" -->
+![](assets/feynman.svg) <!-- .element height="66%" -->
 
 
 </div>
@@ -122,7 +122,7 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 
 &nbsp;
 
-![](assets/leapfrog_layer.svg) <!-- .element width="55%" align="center" vertical-align="center" -->
+![](assets/leapfrog_layer.svg) <!-- .element width="55%" align="center" -->
 
 ![](assets/network_functions.svg)
 
