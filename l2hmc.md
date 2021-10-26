@@ -1,8 +1,7 @@
 ---
 title: "l2hmc-qcd @ ANL PoS 2021"
-theme: simple
+theme: white
 highlightTheme: github
-center: true
 output:
   revealjs::revealjs_presentation:
     self_contained: false
@@ -13,7 +12,7 @@ output:
         theme: whiteboard
         toggleNotesButton: false
 created: 2021-10-25T15:08:24-05:00
-updated: 2021-10-26T11:08:05-05:00
+updated: 2021-10-26T11:30:52-05:00
 ---
 
 <!-- .slide: data-background="#1c1c1c" -->
@@ -325,6 +324,11 @@ DE-AC02-06CH11357.
     --r-main-color: #222;
     --r-heading-color: #222;
     --r-background-color: #fff;
+}
+
+.reveal {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 </style>
