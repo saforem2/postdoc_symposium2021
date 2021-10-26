@@ -1,9 +1,10 @@
 {
     "title": "l2hmc-qcd @ PoS 2021 -- ANL",
-    "controls": true,
+    "controls": false,
     "progress": true,
     "history": true,
     "slideNumber": true,
+    "theme": "custom_theme",
     "transition": "slide",
     "parallaxBackgroundSize": "2100px 900px",
     "center": true 
