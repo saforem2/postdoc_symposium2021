@@ -1,18 +1,18 @@
 ---
 title: "l2hmc-qcd @ ANL PoS 2021"
-theme: custom_theme
+theme: white
 highlightTheme: github
 output:
   revealjs::revealjs_presentation:
-    self_contained: true
+    self_contained: false
     reveal_plugins: ["chalkboard"]
     reveal_options:
       chalkboard:
         enabled: true
         theme: whiteboard
         toggleNotesButton: false
-created: 2021-10-26T11:36:15-05:00
-updated: 2021-10-26T11:46:01-05:00
+created: 2021-10-26T16:38:06-05:00
+updated: 2021-10-26T16:38:06-05:00
 ---
 
 <!-- .slide: data-background="#1c1c1c" -->
@@ -61,7 +61,6 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 ![](assets/feynman.svg) <!-- .element height="66%" align="center" -->
 
 
-</div>
 </div>
 
 ---

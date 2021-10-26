@@ -4,7 +4,6 @@
     "progress": true,
     "history": true,
     "slideNumber": true,
-    "theme": "custom_theme",
     "transition": "slide",
     "parallaxBackgroundSize": "2100px 900px",
     "center": true 
