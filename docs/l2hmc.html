@@ -7,7 +7,7 @@
     <title>l2hmc-qcd @ ANL PoS 2021</title>
     <link rel="shortcut icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="./dist/reveal.css" />
-    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./dist/theme/simple.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/github.css" />
     <link rel="stylesheet" href="./_assets/custom/custom_theme.css" />
 
@@ -53,24 +53,29 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 
 </div>
 
-<div id="right">
+<div id="right" style="width=50%;">
 
-![](assets/nucleus.svg) <!-- .element width="50%" -->
 
-![](assets/feynman.svg) <!-- .element height="66%" -->
+![](assets/nucleus.svg) <!-- .element width="275px" align="right" -->
+
+<br>
+
+![](assets/feynman.svg)  <!-- .element width="100%" align="right" -->
 
 
 </div>
 </script></section><section  data-markdown><script type="text/template">
 # <span style="color: #3B4CC0;">Critical Slowing Down</span>
 
-<div id="right">
+<div id="right" style="width:48%; max-width:50%">
 
-![](assets/critical_slowing_down.svg) <!-- .element width="90%" align="right" --> 
+![](assets/critical_slowing_down.svg) <!-- .element width="400px" align="right" --> 
 
 </div>
+
 &nbsp;
-<div id="left">
+
+<div id="left" style="width=52%; max-width: 55%; font-size: 0.8em;">
 
 - Generating independent configurations is currently a major bottleneck for lattice QCD.
 
@@ -338,7 +343,7 @@ DE-AC02-06CH11357.
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {"title":"l2hmc-qcd @ PoS 2021 -- ANL","controls":false,"progress":true,"history":true,"slideNumber":true,"transition":"fade","parallaxBackgroundSize":"2100px 900px","center":false}, queryOptions);
+      var options = extend(defaultOptions, {"title":"l2hmc-qcd @ PoS 2021 -- ANL","controls":false,"progress":true,"history":true,"slideNumber":true,"transition":"fade","parallaxBackgroundSize":"2100px 900px","center":true,"margin":0.04,"theme":"simple","highlightTheme":"github"}, queryOptions);
     </script>
 
 

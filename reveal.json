@@ -6,5 +6,8 @@
     "slideNumber": true,
     "transition": "fade",
     "parallaxBackgroundSize": "2100px 900px",
-    "center": true 
+    "center": true, 
+    "margin": 0.04,
+    "theme": "simple",
+    "highlightTheme": "github"
 }

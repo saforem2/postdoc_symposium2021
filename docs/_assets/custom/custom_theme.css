@@ -188,8 +188,9 @@ section.has-dark-background h6 {
 }
 
 .reveal .slide-number a {
-    text-color: #111;
+    color: #111;
     background: none !important;
+    background-color: rgba(255, 255, 255, 1.0);
 }
 
 .reveal ul ul,
