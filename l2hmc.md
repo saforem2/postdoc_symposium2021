@@ -16,7 +16,7 @@ output:
         theme: whiteboard
         toggleNotesButton: false
 created: 2021-10-26T16:46:32-05:00
-updated: 2021-10-27T07:38:09-05:00
+updated: 2021-10-27T08:00:09-05:00
 ---
 
 <!-- .slide: data-background="#1c1c1c" -->
@@ -61,11 +61,11 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 <div id="right" style="width=50%;">
 
 
-![](assets/nucleus.svg) <!-- .element width="275px" align="right" -->
+<img class="imgnoborder" src="assets/nucleus.svg" style="width:200px;" />
 
 <br>
 
-![](assets/feynman.svg)  <!-- .element width="100%" align="right" -->
+<img class="imgnoborder" src="assets/feynman.svg" style="width:450px;" />
 
 
 </div>
@@ -73,14 +73,6 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 ---
 
 # <span style="color: #3B4CC0;">Critical Slowing Down</span>
-
-<div id="right" style="width:48%; max-width:50%">
-
-![](assets/critical_slowing_down.svg) <!-- .element width="400px" align="right" --> 
-
-</div>
-
-&nbsp;
 
 <div id="left" style="width=52%; max-width: 55%; font-size: 0.8em;">
 
@@ -90,6 +82,12 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 
   - $\Rightarrow$ \# of configurations required to reliably estimate errors <span id="red">**increases exponentially**</span> 
   - $\tau_{\mathrm{int}} \rightarrow \infty$
+
+</div>
+
+<div id="right" style="width:48%; max-width:50%">
+
+![](assets/critical_slowing_down.svg) <!-- .element width="400px" align="right" --> 
 
 </div>
 
