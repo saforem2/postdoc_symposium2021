@@ -3,7 +3,7 @@
     "controls": false,
     "progress": true,
     "history": true,
-    "slideNumber": true,
+    "slideNumber": false,
     "transition": "fade",
     "parallaxBackgroundSize": "2100px 900px",
     "center": true, 
