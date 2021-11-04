@@ -24,8 +24,10 @@ updated: 2021-10-27T16:04:32-05:00
 
 <div id='dark'>
 
-## Training Topological Samplers  
-## for Lattice Gauge Theory
+&nbsp;
+
+## Accelerated Sampling Methods
+### for Lattice Gauge Theory
 
 <small>[arXiV:2105.03418](https://arxiv.org/abs/2105.03418)</small>
 
