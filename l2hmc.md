@@ -1,11 +1,12 @@
 ---
 title: "l2hmc-qcd @ ANL PoS 2021"
 theme: simple
-highlightTheme: github
-height: 700px
 width: 960px
-center: true
+height: 700px
+center: false
 margin: 0.04
+highlightTheme: github
+transition: slide
 output:
   revealjs::revealjs_presentation:
     self_contained: false
@@ -16,7 +17,7 @@ output:
         theme: whiteboard
         toggleNotesButton: false
 created: 2021-10-26T16:46:32-05:00
-updated: 2021-10-27T08:00:09-05:00
+updated: 2021-10-27T16:04:32-05:00
 ---
 
 <!-- .slide: data-background="#1c1c1c" -->
@@ -74,7 +75,9 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 
 # <span style="color: #3B4CC0;">Critical Slowing Down</span>
 
-<div id="left" style="width=52%; max-width: 55%; font-size: 0.8em;">
+<div class="row">
+
+<div class="column" style="width: 40%; font-size: 85%;">
 
 - Generating independent configurations is currently a major bottleneck for lattice QCD.
 
@@ -85,14 +88,15 @@ November, 2021 @ [ANL](https://www.anl.gov) </span>
 
 </div>
 
-<div id="right" style="width:48%; max-width:50%">
+<div class="column" style="width: 59%;">
 
-![](assets/critical_slowing_down.svg) <!-- .element width="400px" align="right" --> 
+<img src="assets/critical_slowing_down.svg" style="max-width:85%; height:auto;">
+
+</div>
 
 </div>
 
 ---
-	
 ## HMC: Leapfrog Integrator
 
 ![](assets/hmc.svg)  <!-- .element width="50%" -->
@@ -330,6 +334,144 @@ DE-AC02-06CH11357.
     --r-main-color: #222;
     --r-heading-color: #222;
     --r-background-color: #fff;
+}
+
+.reveal {
+    font-family: var(--r-main-font), sans-serif;
+    font-size: var(--r-main-font-size);
+    font-weight: normal;
+    color: var(--r-main-color);
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    margin: var(--r-heading-margin);
+    color: var(--r-heading-color);
+    font-family: var(--r-heading-font);
+    font-weight: 800;
+    line-height: var(--r-heading-line-height);
+    letter-spacing: var(--r-heading-letter-spacing);
+    word-spacing: var(--r-heading-word-spacing);
+    text-transform: var(--r-heading-text-transform);
+    text-shadow: var(--r-heading-text-shadow);
+    word-wrap: break-word;
+}
+
+.reveal h1 {
+    font-size: var(--r-heading1-size);
+}
+
+.reveal h2 {
+    font-size: var(--r-heading2-size);
+}
+
+.reveal h3 {
+    font-size: var(--r-heading3-size);
+    color: #1c1c1c;
+}
+
+.reveal h4 {
+    font-size: var(--r-heading4-size);
+    color: #333333;
+}
+
+#left {
+  margin: 0 0 5px 5px;
+  text-align: left;
+  float: left;
+  z-index: -10;
+  width: 48%;
+  font-size: 0.85em;
+}
+
+#right {
+  margin: 0 0 5px 0;
+  float: right;
+  max-width: 48%;
+  text-align: left;
+  z-index: -10;
+  width: 48%;
+  font-size: 0.85em;
+}
+#dark_back {
+    background-color: #1c1c1c;
+    color: #efefef;
+    .reveal a {
+        color: #F92672;
+        transition: color 0.15s ease;
+    }
+    .reveal a:hover {
+        color: var(--r-link-color-hover);
+    }
+}
+#blue {
+    color: #228BE6;
+}
+#bright {
+    color: #00A2FF;
+}
+#green {
+    color: #009051;
+}
+#lighpink {
+    color: #E64980;
+}
+#pink {
+    color: #F92672;
+}
+
+#red {
+    color: #FA5252;
+}
+
+#noteinverse {
+    background-color: #1c1c1c;
+    border-radius: 5px;
+    border-color: #1c1c1c;
+    color: #efefef;
+    padding: auto;
+    margin: auto;
+}
+
+#note {
+    background-color: rgba(240, 240, 240, 0.90);
+    border-radius: 5px;
+    border-color: rgba(240, 240, 240, 1.0);
+    padding: auto;
+    margin: auto;
+}
+
+#halfsize {
+    font-size: 0.5em;
+}
+
+.container {
+  position: relative;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
 
 </style>

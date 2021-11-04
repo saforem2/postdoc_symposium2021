@@ -4,9 +4,8 @@
     "progress": true,
     "history": true,
     "slideNumber": false,
-    "transition": "fade",
-    "parallaxBackgroundSize": "2100px 900px",
-    "center": true, 
+    "transition": "slide",
+    "center": false, 
     "margin": 0.04,
     "theme": "simple",
     "highlightTheme": "github"
